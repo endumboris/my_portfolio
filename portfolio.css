@@ -1,0 +1,85 @@
+       * header {
+           margin: 0;
+           width: auto;
+           padding: 0;
+           text-decoration: none;
+           left: 0;
+           text-align: left;
+           border-radius: 5%;
+           height: auto;
+           object-fit: cover;
+       }
+       /*navbar styling */
+       
+       .navbar {
+           background-color: #121212;
+           overflow: hidden;
+           height: 90px;
+       }
+       
+       .navbar a {
+           float: right;
+           color: #f2f2f2;
+           text-align: center;
+           padding: 14px 16px;
+           text-decoration: none;
+           font-size: 17px;
+           transition: all 0.6s ease;
+           color: aqua;
+           top: 70px;
+       }
+       
+       .navbar a:hover {
+           color: blueviolet;
+       }
+       
+       .navbar a.active {
+           background-color: #4f4ff6;
+           color: white;
+       }
+       
+       .navbar h2 {
+           font-size: 20;
+           font-family: Arial, Helvetica, sans-serif;
+       }
+       
+       .container {
+           position: relative;
+           display: inline-block;
+           margin: 0;
+           padding: 0;
+       }
+       
+       .container image {
+           width: 10;
+           height: 10;
+           float: flex;
+       }
+       
+       .text-overlay {
+           position: absolute;
+           top: 20%;
+           right: 10px;
+           color: black;
+           font-family: Arial, sans-serif;
+           transform: translate(-50%, -50%);
+           font-size: 20px;
+       }
+       
+       .text-overlay a {
+           text-decoration: none;
+           cursor: pointer;
+       }
+       
+       .text-overlay button {
+           cursor: pointer;
+       }
+       
+       .body {
+           background-color: #2b2b2b;
+       }
+       
+       .container {
+           display: inline-block;
+           cursor: pointer;
+       }
